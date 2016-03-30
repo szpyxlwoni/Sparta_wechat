@@ -1,3 +1,11 @@
-.header {
-    display:inline;
+.header div {
+    display:inline-block;
+}
+
+.plan-setting div {
+	display:inline-block;
+}
+
+.plan div {
+	display:inline-block;
 }
