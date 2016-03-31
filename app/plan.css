@@ -1,11 +1,33 @@
+.header {
+	height: 0.6rem;
+}
+
 .header div {
     display:inline-block;
+    font-size: 0.5rem;
+}
+
+.plan-setting {
+	height: 0.4rem;
 }
 
 .plan-setting div {
 	display:inline-block;
+	font-size: 0.4rem;
+}
+
+.plan {
+	margin-top: 0.2rem;
+	height: 0.4rem;
 }
 
 .plan div {
 	display:inline-block;
+	font-size: 0.4rem;
+}
+
+.btn-study {
+	color: #fff;
+    background-color: #000;
+    border-color: #000;
 }
