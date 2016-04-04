@@ -2,7 +2,19 @@ import React from 'react';
 import './plan.css';
 
 export default class Plan extends React.Component {
-	render() {
+	constructor () {
+		super();
+		this.state = {
+			plan : {
+				startHour : 7,
+				startMinute : 30,
+				name : '',
+				note : ''
+			}
+		}
+	}
+
+	render () {
 		return (
 			<div>
 				<div className="header">
@@ -17,7 +29,7 @@ export default class Plan extends React.Component {
 				    <div>清空</div>
 				</div>
 				<div className="plan">
-				    <div>7:00</div>
+				    <div>{this.state.plan.startHour + ':' + this.state.plan.startMinute}</div>
 				    <div>学习</div>
 				    <div>工作</div>
 				    <div>运动</div>
