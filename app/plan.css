@@ -1,11 +1,79 @@
-.header div {
+.content {
+}
+
+.bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.plan-header {
+	height: 1rem;
+}
+
+.plan-header div {
     display:inline-block;
+    font-size: 0.5rem;
+}
+
+.plan-setting {
+	height: 1rem;
 }
 
 .plan-setting div {
 	display:inline-block;
+	font-size: 0.4rem;
+}
+
+.plan {
+	padding: 0.1rem;
+	height: 1.6rem;
 }
 
 .plan div {
 	display:inline-block;
+	font-size: 0.4rem;
+}
+
+.plan-time {
+	height: 100%;
+}
+
+.plan-selector {
+	background-color: #EC9B4A;
+	padding: 0.1rem;
+}
+
+.btn {
+	padding-top: 0.4rem;
+	height: 1.4rem;
+}
+
+.btn-study {
+	color: #fff;
+    background-color: #F2CC45;
+    border-color: #F2CC45;
+}
+
+.btn-study:hover {
+	color: #fff;
+    background-color: #E8CA5D;
+    border-color: #E8CA5D;
+}
+
+.btn-study:active {
+	color: #fff;
+    background-color: #D7BD5F;
+    border-color: #D7BD5F;
+}
+
+.plan-plus {
+	font-size: 0.4rem;
+	margin-left: 0.4rem;
+}
+
+.draging {
+	border: 0.02rem dotted #000;
 }
