@@ -30,6 +30,7 @@
 .plan {
 	padding: 0.1rem;
 	height: 1.6rem;
+	position: relative;
 }
 
 .plan div {
@@ -39,6 +40,15 @@
 
 .plan-time {
 	height: 100%;
+}
+
+.plan-text {
+	position: absolute;
+	left: 3rem;
+	z-index: 999;
+	width: 4rem;
+	text-align: center;
+	word-break: break-all;
 }
 
 .plan-selector {
