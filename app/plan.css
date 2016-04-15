@@ -1,3 +1,7 @@
+.am-tabs {
+	width: 100%;
+}
+
 .content {
 }
 
@@ -15,7 +19,15 @@
 
 .plan-header div {
     display:inline-block;
-    font-size: 0.5rem;
+    font-size: 0.4rem;
+}
+
+.plan-header li:nth-child(1), .plan-header li:nth-child(3) {
+	width: 25%;
+}
+
+.plan-header li:nth-child(2) {
+	width: 50%;
 }
 
 .plan-setting {
@@ -27,6 +39,10 @@
 	font-size: 0.4rem;
 }
 
+.template-select {
+	font-size: 0.4rem;
+}
+
 .plan {
 	padding: 0.1rem;
 	height: 1.6rem;
@@ -35,7 +51,7 @@
 
 .plan div {
 	display:inline-block;
-	font-size: 0.4rem;
+	font-size: 0.35rem;
 }
 
 .plan-time {

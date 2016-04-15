@@ -135,7 +135,7 @@ class PlanItem extends React.Component {
 					    <div className="btn btn-primary col-xs-2" onClick={(event)=>this.setPlanName(event, 5)}>休息</div>
 					    <div className="btn btn-danger col-xs-2" onClick={(event)=>this.setPlanName(event, 6)}>无效</div></div>)
 
-		return (<div className={this.state.isDraging ? 'plan text-center draging' : 'plan text-center'} style={{height:timeHeight}}>
+		return (<div className={this.state.isDraging ? 'plan text-center draging col-xs-12' : 'plan text-center col-xs-12'} style={{height:timeHeight}}>
 		    <div className="plan-time col-xs-2" onTouchStart={(event)=>this.dragPlan(event)} 
 		            onTouchEnd={(event)=>this.dragOver(event)} onTouchMove={(event)=>this.dragingPlan(event)}>
 		            {this.startTime()}

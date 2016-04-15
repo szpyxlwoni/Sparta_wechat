@@ -5,6 +5,7 @@ import thunk from 'redux-thunk';
 import { Provider } from 'react-redux';
 import SpartaApp from './reducers/Reducers.jsx';
 import AppRouter from './router/AppRouter.jsx';
+import 'bootstrap/dist/css/bootstrap.css';
 
 const finalCreateStore = compose(
     applyMiddleware(thunk)

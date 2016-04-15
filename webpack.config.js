@@ -46,8 +46,15 @@ config = {
             {
                 test: /\.svg/,
                 loader: 'url-loader?limit=8192'
-            }
-
+            },
+            {test: /\.woff$/, loader: "url?limit=10000&mimetype=application/font-woff" },
+            {test: /\.woff2$/, loader: "url?limit=10000&mimetype=application/font-woff2" },
+            {test: /\.ttf$/,  loader: "url?limit=10000&mimetype=application/octet-stream" },
+            {test: /\.eot$/,  loader: "file" },
+            {test: /\.woff\?v=4\.5\.0$/, loader: "url?limit=10000&mimetype=application/font-woff" },
+            {test: /\.woff2\?v=4\.5\.0$/, loader: "url?limit=10000&mimetype=application/font-woff2" },
+            {test: /\.ttf\?v=4\.5\.0$/,  loader: "url?limit=10000&mimetype=application/octet-stream" },
+            {test: /\.eot\?v=4\.5\.0$/,  loader: "file" },
         ]
     },
     cache: true,
